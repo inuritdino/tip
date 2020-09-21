@@ -1,0 +1,234 @@
+<style>
+p.image {
+text-align: center;
+}
+ul > li {
+display: inline;
+margin: 15px;
+}
+ul#contents > li {
+display: block;
+margin-bottom: -7px;
+margin-left: -10px;
+}
+ul#contents{
+background-color: AntiqueWhite;
+width: 250px;
+}
+table td{
+background-color: aquamarine;
+padding:0px 10px 0px 10px;
+}
+div#notification {
+border: 1px solid;
+width: 70%;
+background-color: yellow;
+margin: 0 auto;
+}
+div#notification p {
+margin: 5px;
+}
+</style>
+<title>MAT-61506 Dynamical Systems and Chaos</title>
+<h1>MAT-61506 Dynamical Systems and Chaos (spring 2016)</h1>
+
+<p class="image">
+<ul style="text-align: left;">
+<li>
+<img src="logistic-diag.jpg" width="200px" />
+<li>
+<img src="lorenz-bw.jpg" width="200px" height="150px"/>
+<li>
+<img src="cusp.jpg" width="140px" height="150px" />
+</ul>
+</p>
+
+
+<p>Introduction to Nonlinear Dynamical Systems and Chaotic Dynamics (with applications to Biology). 
+<p>The course is divided into two parts: theory and applications.
+The theory part focuses on the major notions and techniques needed later for the applicational part.
+
+<p>The application theme is Biology.
+
+<p class="image">
+<ul style="text-align: left;">
+<li>
+<img src="photosynthesis.png" width="100px" />
+<li>
+<img src="rep.png" width="200px" />
+<li>
+<img src="Glycolysis.png" width="300px" />
+<li>
+<img src="neurons.jpg" width="140px" />
+</ul>
+</p>
+<p style="text-align: center; font-size: 10px;">Picture credits to Wikipedia.</p>
+
+<p>NOTE: basic knowledge on systems of differential equations is an essential prerequisite for the course.
+The course target group: graduate and advanced undergraduate students.
+
+<p>The principal responsible person for the course: prof. Mikko Kaasalainen (room TD321).
+
+<div id="notification">
+<p>Please send an email to the instructor, if you think some of your homework grades are missing or 
+you want to check the homework assessment.
+</div>
+
+<h4>Contents</h4>
+<ul id="contents">
+<li><a href="#lect">Lectures</a></li>
+<li><a href="#lect-slides">Lecture slides</a></li>
+<li><a href="#homework">Homeworks</a></li>
+<li><a href="#hw-exer">Homework Exercises</a></li>
+<li><a href="#project">Project work</a></li>
+<li><a href="#grading">Grading</a></li>
+<li><a href="#course-material">Course material</a></li>
+<li><a href="#exam-material">Exam material</a></li>
+<li><a href="#hw">Homework submission track</a></li>
+</ul>
+
+<hr />
+
+<h3 id="lect">Lectures</h3>
+<p>Lectures are given in English by Dr. Ilya Potapov. Period 4: Monday 9-11 and Wednesday 9-11, room TD308.
+Lecturer is available for questions in his office TD325. You may want to send an email first: 
+<i>ilya.potapov (at) tut.fi</i>.
+
+<h4 id="lect-slides">Lecture slides</h4>
+<ul>
+<li><a href="lect/lect01.pdf">Lecture 1</a></li>
+<li><a href="lect/lect02.pdf">Lecture 2</a></li>
+<li><a href="lect/lect03.pdf">Lecture 3</a></li>
+<li><a href="lect/lect04.pdf">Lecture 4</a></li>
+<li><a href="lect/lect05.pdf">Lecture 5</a></li>
+<li><a href="lect/lect06.pdf">Lecture 6</a></li>
+</ul>
+<ul>
+<li><a href="lect/lect07.pdf">Lecture 7</a></li>
+<li><a href="lect/lect08.pdf">Lecture 8</a></li>
+<li><a href="lect/lect09.pdf">Lecture 9</a></li>
+<li><a href="lect/lect10.pdf">Lecture 10</a></li>
+<li><a href="lect/Lecture11.pdf">Lecture 11</a></li>
+<li><a href="lect/lect12.pdf">Lecture 12</a></li>
+</ul>
+
+<hr />
+
+<h3 id="homework">Homeworks</h3>
+<p>Homeworks are <b>obligatory</b> for this implementation.
+<p>Homeworks follow every lecture. It is preferable to solve the homework problems
+  before the next lecture in order to be up-to-date with the material. But one can
+  finish homeworks anytime. The list of the submitted homeworks for each of the participating students (TUT student
+  number is given) is shown <a href="#hw">below</a>.
+
+<p>Homeworks are explained on each lecture. You can resubmit your homework many times, the best score will be given.
+
+<p>Some homeworks require just paper work. These can be handed over on paper to the teacher or sent by email scanned 
+or preprocessed with any math-editors (TeX, MS Word etc.).
+ Others require computer calculations and simulations. These can be submitted
+by email in the form of a report with explanatory text, figures, codes etc. When submitting the reports, please,
+kindly mention your student ID.
+
+<p>Some exercises require Matlab (if the tasks allow, one can use other simulation platforms).
+  These can be fulfilled in the TUT computer rooms dedicated to the students.
+
+<h4 id="hw-exer">Homework exercises</h4>
+
+<table>
+<tr><th>Exercises</th><th>Related files</th></tr>
+<tr><td><a href="hw/hw01.pdf">Homework 1</a></td></tr>
+<tr><td><a href="hw/hw02.pdf">Homework 2</a></td></tr>
+<tr><td><a href="hw/hw03.pdf">Homework 3</a></td><td><a href="hw/ode_vfield_2d.m">ode_vfield_2d.m</a></td></tr>
+<tr><td><a href="hw/hw04.pdf">Homework 4</a></td><td><a href="hw/lorenz.m">lorenz.m</a>, <a href="hw/lyapunov.m">lyapunov.m</a>, 
+<a href="hw/run_map.m">run_map.m</a></td></tr>
+<tr><td><a href="hw/hw05.pdf">Homework 5</a></td><td><a href="hw/let.zip">let.zip</a></td></tr>
+<tr><td><a href="hw/hw06.pdf">Homework 6</a></td></tr>
+<tr><td><a href="hw/hw07.pdf">Homework 7</a></td></tr>
+<tr><td><a href="hw/hw08.pdf">Homework 8</a></td></tr>
+<tr><td><a href="hw/hw09.pdf">Homework 9</a></td><td><a href="hw/stoch_if.m">stoch_if.m</a>,
+ <a href="hw/hh1.m">hh1.m</a>, <a href="hw/hh2.m">hh2.m</a>, <a href="hw/hh3.m">hh3.m</a>, <a href="hw/hh4.m">hh4.m</a></td></tr>
+<tr><td><a href="hw/hw10.pdf">Homework 10</a></td></tr>
+</table>
+
+
+<hr />
+
+<h3 id="project">Project work</h3>
+<p>Project work is <b>optional</b> for this implementation, but in case it is successfully done it adds up a point
+to the final exam grade.
+
+<p>You can return the project work any time this year. This can be in the form of a standard report 
+(intro, problem setup, results, discussion; pdf or doc file), or you can arrange a time with 
+the instructor and show your findings (particularly useful if you want to run a program).
+
+<p>Projects:</p>
+<ol>
+<li>Two-species interactions, Volterra hypotheses, herbivore-plankton model (<a href="projects/2species.pdf">download instructions</a>).
+<li>Excitability in neurons, Morris-Lecar model (<a href="projects/morris_lecar.pdf">download instructions</a>).
+</ol>
+
+<hr />
+
+<h3 id="grading">Grading</h3>
+<p>Grading scale is 0-5, precision is one decimal point which is rounded up (ceiling) for the final grade.
+<p>The final grade (FG) consists of the exam grade (EG) and homework grade (HG):
+  FG = 0.75*EG + 0.25*HG. The final HG will be an average of grades for all homeworks.
+  The project work is assessed as pass or fail.
+
+<p>Further conditions:
+<p>1. If project is pass: FG = FG + 1
+<p>2. If any homework is missing: FG = 0
+
+
+
+<hr />
+
+<h3 id="course-material">Course material</h3>
+<p>The course mainly follows the book M. Hirsch, S. Smale & R. Devaney: <i>Differential Equations,
+Dynamical Systems and an Introduction to Chaos</i>, ISBN 0123497035, Academic Press 2002 (Chapters 8-).
+
+<p>Other useful books are, e.g.: <i>Regular and Stochastic Dynamics</i> by Lichtenberg and Lieberman
+(Springer), or <i>Perspectives of nonlinear dynamics</i> by Jackson (Cambridge).
+
+<p>There are some recommended books on mathematical biology: <i>Mathematical Biology I: An Introduction</i>
+by JD Murray; <i>Computational Cell Biology</i> by CP Fall; <i>Dynamical Systems in Neuroscience:
+The Geometry of Excitability and Bursting</i>
+by E Izhikevich.
+
+<hr />
+
+
+<h3 id="exam-material">Exam material</h3>
+
+<p>1. Lecture slides above.</p>
+
+<p>2. Exam chapters from Hirsch et al. book: 8, 9.1, 9.2, 9.4 14.1-14.3, 14.5, 15.1-15.4.
+</p> 
+
+<p>3. J.D. Murray, Mathematical Biology I: An Introduction: <a href="exam_mat/Murray_Ch2.pdf">chapter 2</a> and 
+<a href="exam_mat/Murray_Ch3.pdf">chapter 3</a>.</p>
+
+<p>4. E. Izhikevich, Dynamical Systems in Neuroscience: <a href="exam_mat/Izhikevich_Ch1-2.pdf">first 2 chapters</a>.</p>
+
+<p>An exam sample from the previous implementation round is <a href="exam_mat/exam_sample.pdf">here</a>.</p>
+
+<hr />
+<h3 id="hw">Homework submission track</h3>
+<table border="2">
+<col width="80px"><col width="60px"><col width="60px"><col width="60px"><col width="60px"><col width="60px"><col width="60px">
+<col width="60px"><col width="60px"><col width="60px"><col width="60px"><col width="90px">
+  <tr><th>Student ID</th><th>HW 1</th><th>HW 2</th><th>HW 3</th><th>HW 4</th><th>HW 5</th>
+<th>HW 6</th><th>HW 7</th><th>HW 8</th><th>HW 9</th><th>HW 10</th><th>Final score</th></tr>
+  <tr><td>260223</td><td>4.1</td></tr>
+  <tr><td>229642</td><td>4.6</td><td>5.0+0.9</td><td>3.0</td><td>4.9</td><td>4.7</td><td>2.8+1.0</td><td>5.0</td><td>5.0</td><td>4.0</td><td>3.5</td><td>5.0</td></tr>
+  <tr><td>224597</td><td>5.0+0.4</td><td>5.0+1.0</td><td>4.9</td><td>4.6</td><td>4.3</td><td>4.9</td><td>5.0</td><td>5.0</td><td>3.9</td><td>5.0</td>
+	<td>5.0</td></tr>
+  <tr><td>261240</td><td>5.0</td><td>5.0+1.4</td><td>5.0</td><td>5.0</td><td>5.0</td><td>4.8</td><td>5.0</td><td>5.0+2.0</td><td>4.5</td><td>4.0</td><td>5.0</td></tr>
+  <tr><td>218668</td><td>5.0+1.0</td><td>5.0+1.0</td><td>5.0</td><td>4.7</td><td>5.0</td><td>5.0+0.5</td><td>3.5</td><td>5.0+2.0</td><td>5.0</td><td>5.0</td>
+<td>5.0</td></tr>
+</table>
++<i>number</i> indicates extra points, which can be used later.
+
+<hr />
+Last update: May 20, 2016.
+<hr />
