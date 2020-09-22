@@ -7,6 +7,8 @@ disqus:
 google-ID: ''
 
 menu:
+- {name: 'Course Demo', path: 'journal', url: 'dyn-sys.html'}
+- {name: 'Remote Lerning', path: 'journal', url: 'video-lecture.html'}
 - {name: 'Teaching history', path: 'menu', url: 'teaching-history.html'}
 - {name: 'Bio', path: 'menu', url: 'bio.html'}
 

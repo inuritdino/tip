@@ -7,6 +7,21 @@ title: Home
 {% include topic-keywords.html %}
 </div>
 
+<hr />
+
+<h3>Demos in this portfolio</h3>
+<ul class="posts">
+  {% for post in site.posts %}
+
+    <li itemscope>
+      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+    </li>
+
+  {% endfor %}
+</ul>
+
+<hr />
+
 {% for post in paginator.posts %}
 <div class="posts">
   <h1>
