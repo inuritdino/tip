@@ -1,21 +1,20 @@
 ---
 layout: post
-title: "Remote learning options"
+title: "Meeting students' needs"
 author: "Ilya Potapov"
 categories: journal
 tags: [documentation,sample]
 image: rep.png
 ---
 
-According to my teaching philosophy I try to meet students' needs in the learning process.
-Thus, for example, I compiled all my lectures into a series of video clips to facilitate
-learning: some students are more comfortable in a class, yet others are better
-in learning from their comfort zones.
-This way, I believe students can learn more effectively 
-accommodating the learning process to their needs and achieve the learning outcomes better.
-
-In 2014 I recorded all lectures for the course Dynamical Systems and Chaos and
-gave the students the options to learn.
+According to my teaching philosophy I try to meet students' needs in
+the learning process. Thus, for example, in 2014 I recorded all
+lectures for the course "Dynamical Systems and Chaos" and gave the
+students options to learn: some students are more comfortable in a
+class, others are better in learning from their comfort zones. This
+way, I believe students can learn more effectively accommodating the
+learning process to their needs and achieve the learning outcomes
+better.
 
 Sample video:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2FZ51_3xIl0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
