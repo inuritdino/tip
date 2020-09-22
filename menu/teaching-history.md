@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Teaching history 
+title: Teaching History 
 ---
 
 I started teaching at the university level early on during my PhD studies at Tampere University of
