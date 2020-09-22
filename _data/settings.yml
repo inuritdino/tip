@@ -10,7 +10,7 @@ menu:
 - {name: 'Engage Students', path: 'journal', url: 'heart-beating.html'}
 - {name: 'Sample Course', path: 'journal', url: 'dyn-sys.html'}
 - {name: 'Students First', path: 'journal', url: 'video-lecture.html'}
-- {name: 'Teaching history', path: 'menu', url: 'teaching-history.html'}
+- {name: 'Teaching History', path: 'menu', url: 'teaching-history.html'}
 - {name: 'Bio', path: 'menu', url: 'bio.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
